@@ -6,3 +6,9 @@ instance:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      
+      
+okta:
+  oauth2:
+    issuer: https://dev-03742505.okta.com/oauth2/default
+    audience: api://default
